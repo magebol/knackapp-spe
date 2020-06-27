@@ -337,5 +337,5 @@ function sendFile(form, object, app_id, apikey) {
 			Knack.hideSpinner();        
     });
 }
-var appid = config.appid;
-var apikey = config.apikey;
+var appid = process.env.APP_ID;
+var apikey = process.env.API_KEY;
